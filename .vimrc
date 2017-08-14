@@ -12,6 +12,9 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 syntax on
 colorscheme onedark
 
+" Easymotion                                                                                                                                                                                   
+let g:EasyMotion_smartcase = 1
+
 " PHPCD
 autocmd FileType php setlocal omnifunc=phpcd#CompletePHP
 
